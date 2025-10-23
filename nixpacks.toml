@@ -1,2 +1,5 @@
 [phases.setup]
-aptPkgs = ["sqlite3", "libsqlite3-dev"]
+aptPkgs = ["libsqlite3-0", "libsqlite3-dev"]
+
+[phases.install]
+cmds = ["mise use python@3.11"]
